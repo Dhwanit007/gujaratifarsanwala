@@ -1,17 +1,11 @@
 'use client'
-import { createContext, useContext, useState, useEffect } from 'react'
+import { createContext, useContext, useState } from 'react'
 
 const PopupContext = createContext(null)
 
 export function PopupProvider({ children }) {
   const [show, setShow] = useState(false)
   const [closing, setClosing] = useState(false)
-
-  // Auto-show on page load after 1.8s
-  useEffect(() => {
-    const timer = setTimeout(() => setShow(true), 1800)
-    return () => clearTimeout(timer)
-  }, [])
 
   const openPopup = () => {
     setClosing(false)

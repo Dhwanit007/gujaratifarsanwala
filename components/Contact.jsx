@@ -91,8 +91,8 @@ export default function Contact() {
               </h3>
               {[
                 { Icon: MapPin, label: 'Location',        value: 'Ahmedabad, Gujarat, India' },
-                { Icon: Phone,  label: 'Call / WhatsApp', value: '+91 98795 04950' },
-                { Icon: Mail,   label: 'Email',           value: 'gujaratifarsanwala2011@gmail.com' },
+                { Icon: Phone,  label: 'Call / WhatsApp', value: '+91 98765 43210' },
+                { Icon: Mail,   label: 'Email',           value: 'info@gujaratifarsanwala.com' },
                 { Icon: Clock,  label: 'Business Hours',  value: 'Mon–Sat: 9 AM – 7 PM\nSunday: 10 AM – 3 PM' },
               ].map(({ Icon, label, value }) => (
                 <div key={label} className="flex gap-4 mb-4 items-start">
@@ -132,7 +132,7 @@ export default function Contact() {
                 For large orders, wedding favours, event catering or wholesale pricing — reach out directly on WhatsApp or give us a call.
               </p>
               <a
-                href="https://wa.me/919879504950"
+                href="https://wa.me/919876543210"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold text-white"

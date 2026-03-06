@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "dev:network": "next dev -H 0.0.0.0"
+    "start": "next start"
   },
   "dependencies": {
     "next": "14.2.3",
